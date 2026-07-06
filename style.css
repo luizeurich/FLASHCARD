@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image; url 
+  background-image: url(img/papel-parede-windows.webp)
 }
 
 .cabecalho {
@@ -31,6 +31,10 @@ h1 {
 
 main {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .cartao {
@@ -65,10 +69,14 @@ main {
 
 section {
   display: flex;
-  /*gap: 16px; */
-}
-footer {
-background-color: #7e3e1c;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;}
+
+footer 
+{background-color: #7e3e1c;
 padding: 15px 25px;
 color: #fff;
 }
